@@ -1,18 +1,52 @@
 {
   "MiniTest": {
     "coverage": {
-      "/home/doge/tareas integra/T2Tintegra/app/controllers/application_controller.rb": [
+      "/home/doge/Tarea Integra/integrat2/app/controllers/api_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/doge/Tarea Integra/integrat2/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/home/doge/tareas integra/T2Tintegra/app/helpers/application_helper.rb": [
+      "/home/doge/Tarea Integra/integrat2/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/doge/Tarea Integra/integrat2/app/helpers/api_helper.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1463080856
+    "timestamp": 1463155922
   }
 }

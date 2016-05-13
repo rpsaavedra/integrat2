@@ -6,9 +6,6 @@ class ApiControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get buscar" do
-    get :buscar
-    assert_response :success
-  end
+
 
 end
