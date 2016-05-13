@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'api/index'
-
+  get 'instagram/tag/buscar'  => 'api#index'
+  
   post 'instagram/tag/buscar' => 'api#buscar'
+
+  match '/instagram/tag/buscar' => 'api#buscar', via: :post
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
