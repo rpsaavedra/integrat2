@@ -6,7 +6,7 @@ class ApiController < ApplicationController
   	cantidad = getCantidad(tag,token)
   	datos= getPost(tag,token)
   	persona = getPostx(datos,0)
-
+  	puts datos.count
   	response = { :metadata =>  { :cantidad => cantidad}, :posts => [ persona, persona ] }
   	render :json => response
 
