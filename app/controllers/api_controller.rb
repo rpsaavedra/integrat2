@@ -38,6 +38,7 @@ class ApiController < ApplicationController
   end
 
   def buscar
+  	require 'httparty'
   	#render nothing: true, status: :bad_request
   if true
   	tag= params[:tag].to_s
