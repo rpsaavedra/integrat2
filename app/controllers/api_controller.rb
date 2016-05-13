@@ -1,7 +1,9 @@
 class ApiController < ApplicationController
+	skip_before_filter  :verify_authenticity_token
 
   def index
-  	tag= "snow"
+  
+  	tag= "melipillazo"
   	token="2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"
   	cantidad = getCantidad(tag,token)
 
@@ -38,7 +40,9 @@ class ApiController < ApplicationController
   end
 
   def buscar
-  	require 'httparty'
+
+  
+  	
   	#render nothing: true, status: :bad_request
 
   if true
@@ -81,7 +85,7 @@ class ApiController < ApplicationController
 
   	rescue => ex
       logger.error ex.message
-      
+
       render json: { error: ex.message }, status: 503
     end
 
