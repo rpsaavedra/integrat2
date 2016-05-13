@@ -1,13 +1,38 @@
 class ApiController < ApplicationController
 
   def index
-  	tag= "melipillazo"
+  	tag= "snow"
   	token="2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"
   	cantidad = getCantidad(tag,token)
+
   	datos= getPost(tag,token)
+  	
+  	if(datos.count == 0)
+  		response = { :metadata =>  { :cantidad => cantidad}, :posts =>  []  }
+  		render :json => response
+  	end
+
   	persona = getPostx(datos,0)
-  	puts datos.count
-  	response = { :metadata =>  { :cantidad => cantidad}, :posts => [ persona, persona ] }
+  	nuevo = Array.new
+  	nuevo.push(persona)
+	
+
+  	largo = datos.count
+  	if(cantidad>=largo)
+  		for i in 1..(largo-1)
+  			persona = getPostx(datos,i)
+  			nuevo.push(persona)
+  		end
+  	end
+  	if (cantidad < largo)
+  		for i in 1..(cantidad-1)
+  			persona = getPostx(datos,i)
+  			nuevo.push(persona)
+  		end
+  	end
+  	
+  	response = { :metadata =>  { :cantidad => cantidad}, :posts =>  nuevo  }
+  	
   	render :json => response
 
   end
@@ -18,8 +43,37 @@ class ApiController < ApplicationController
   	token= params[:access_token].to_s
 
 
-  	totales JSON.parse(HTTP.headers(:"Content-Type" => "application/json").get("https://api.instagram.com/v1/tags/"+ tag +"?access_token="+token).to_s, :symbolize_names => true)
+  	cantidad = getCantidad(tag,token)
 
+  	datos= getPost(tag,token)
+  	
+  	if(datos.count == 0)
+  		response = { :metadata =>  { :cantidad => cantidad}, :posts =>  []  }
+  		render :json => response
+  	end
+
+  	persona = getPostx(datos,0)
+  	nuevo = Array.new
+  	nuevo.push(persona)
+	
+
+  	largo = datos.count
+  	if(cantidad>=largo)
+  		for i in 1..(largo-1)
+  			persona = getPostx(datos,i)
+  			nuevo.push(persona)
+  		end
+  	end
+  	if (cantidad < largo)
+  		for i in 1..(cantidad-1)
+  			persona = getPostx(datos,i)
+  			nuevo.push(persona)
+  		end
+  	end
+  	
+  	response = { :metadata =>  { :cantidad => cantidad}, :posts =>  nuevo  }
+  	
+  	render :json => response
   end
 
 
