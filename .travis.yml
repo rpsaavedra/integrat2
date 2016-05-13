@@ -16,3 +16,8 @@ before_script:
 after_success:
   - CI=true TRAVIS=true coveralls --verbose
 
+deploy:
+  provider: heroku
+  api_key: 7e2693a9-987c-4f2a-997b-724313dc30b0
+  app: integrat2
+  on: master
