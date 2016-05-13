@@ -1414,3 +1414,4 @@ ActionController::RoutingError (uninitialized constant Instagram):
 Started GET "/instagram/tag/buscar" for ::1 at 2016-05-13 16:13:20 -0300
 Processing by ApiController#index as HTML
 Completed 200 OK in 2030ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'api/buscar'` to `controller: 'api/buscar'`. (called from block in <top (required)> at /home/doge/Tarea Integra/integrat2/config/routes.rb:4)

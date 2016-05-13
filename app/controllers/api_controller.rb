@@ -38,8 +38,8 @@ class ApiController < ApplicationController
   end
 
   def buscar
-  	render nothing: true, status: :bad_request
-  if false
+  	#render nothing: true, status: :bad_request
+  if true
   	tag= params[:tag].to_s
   	token= params[:access_token].to_s
 
