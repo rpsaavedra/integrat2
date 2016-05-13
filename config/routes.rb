@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'instagram/tag/buscar'  => 'api#index'
   
-  post 'instagram/tag/buscar' => 'api#buscar'
+ # post 'instagram/tag/buscar' => 'api/buscar'
 
   match '/instagram/tag/buscar' => 'api#buscar', via: :post
 

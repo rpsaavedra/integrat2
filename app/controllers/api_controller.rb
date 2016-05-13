@@ -38,7 +38,8 @@ class ApiController < ApplicationController
   end
 
   def buscar
-
+  	render nothing: true, status: :bad_request
+  if false
   	tag= params[:tag].to_s
   	token= params[:access_token].to_s
 
@@ -74,6 +75,7 @@ class ApiController < ApplicationController
   	response = { :metadata =>  { :cantidad => cantidad}, :posts =>  nuevo  }
   	
   	render :json => response
+  end
   end
 
 
