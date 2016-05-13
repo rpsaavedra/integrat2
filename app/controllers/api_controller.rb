@@ -40,7 +40,9 @@ class ApiController < ApplicationController
   def buscar
   	require 'httparty'
   	#render nothing: true, status: :bad_request
+
   if true
+  	begin
   	tag= params[:tag].to_s
   	token= params[:access_token].to_s
 
@@ -76,6 +78,13 @@ class ApiController < ApplicationController
   	response = { :metadata =>  { :cantidad => cantidad}, :posts =>  nuevo  }
   	
   	render :json => response
+
+  	rescue => ex
+      logger.error ex.message
+      
+      render json: { error: ex.message }, status: 503
+    end
+
   end
   end
 
