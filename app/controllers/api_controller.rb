@@ -63,18 +63,18 @@ class ApiController < ApplicationController
     	largo = datos.count
     	if(cantidad>=largo)
     		for i in 1..(largo-1)
-          puts "antes del getPostx"
+         # puts "antes del getPostx"
     			persona = getPostx(datos,i)
-          puts "luego del get, antes de pushear"
+          #puts "luego del get, antes de pushear"
     			nuevo.push(persona)
-          puts "entre a el largo :P"
+          #puts "entre a el largo :P"
     		end
     	end
     	if (cantidad < largo)
     		for i in 1..(cantidad-1)
     			persona = getPostx(datos,i)
     			nuevo.push(persona)
-          puts "he entrado a cantidad"
+         # puts "he entrado a cantidad"
     		end
     	end
     	
@@ -99,27 +99,27 @@ class ApiController < ApplicationController
 
  def getPost(tag, token)
  	post =JSON.parse(HTTP.headers(:"Content-Type" => "application/json").get("https://api.instagram.com/v1/tags/"+ tag+ "/media/recent?access_token="+ token).to_s, :symbolize_names => true)
- 	puts post[:data]
+ #	puts post[:data]
   return post[:data]
  end
 
 
  def getPostx(data,numero)
  	tags = data[numero][:tags]
-  puts "1. antes de user name xxxx"
+#  puts "1. antes de user name xxxx"
  	username = data[numero][:user][:username]
-  puts "2. antes de ver los likes"
+ # puts "2. antes de ver los likes"
  	likes =data[numero][:likes][:count]
-  puts "3. antes de hacer el type"
+ # puts "3. antes de hacer el type"
  	type = data[numero][:type]
  	if(type == "image")
-    puts "4. imagen"
+ #   puts "4. imagen"
  		url = data[numero][:images][:standard_resolution][:url]
 
  	end
 
  	if(type == "video")
-    puts "4. tipo vdeo"
+  #  puts "4. tipo vdeo"
  		url = data[numero][:videos][:standard_resolution][:url]
  	end
  
