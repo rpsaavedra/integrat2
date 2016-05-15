@@ -9,29 +9,19 @@ class ApiController < ApplicationController
 
   	datos= getPost(tag,token)
   	
-  	if(datos.count == 0)
-  		response = { :metadata =>  { :cantidad => cantidad}, :posts =>  []  }
-  		render :json => response
-  	end
-
+  
   	persona = getPostx(datos,0)
   	nuevo = Array.new
   	nuevo.push(persona)
 	
 
   	largo = datos.count
-  	if(cantidad>=largo)
   		for i in 1..(largo-1)
   			persona = getPostx(datos,i)
   			nuevo.push(persona)
   		end
-  	end
-  	if (cantidad < largo)
-  		for i in 1..(cantidad-1)
-  			persona = getPostx(datos,i)
-  			nuevo.push(persona)
-  		end
-  	end
+  	
+  	
   	
   	response = { :metadata =>  { :cantidad => cantidad}, :posts =>  nuevo  }
   	
@@ -49,6 +39,7 @@ class ApiController < ApplicationController
       resp = {:error => 400}.to_json 
       
       render :json => resp, :status => :bad_request
+
     else
  
   	begin
@@ -61,6 +52,7 @@ class ApiController < ApplicationController
     	if(datos.count == 0)
     		response = { :metadata =>  { :total => cantidad}, :posts =>  []  }
     		render :json => response
+        return
     	end
 
     	persona = getPostx(datos,0)

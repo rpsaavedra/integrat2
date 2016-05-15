@@ -2223,3 +2223,9 @@ Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:55:35 -0300
 Processing by ApiController#buscar as HTML
   Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
 Completed 200 OK in 2313ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 18:11:20 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 2046ms (Views: 37.5ms | ActiveRecord: 0.0ms)

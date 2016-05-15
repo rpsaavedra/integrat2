@@ -36,5 +36,25 @@ end
     assert_response :success
   end
 
+  test "token nil" do
+  	get :buscar, :tag => 'melipillazo', :access_token => ''
+    assert_response :bad_request
+  end
+
+  test "tag nil" do
+  	get :buscar, :tag => '', :access_token => '2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402'
+    assert_response :bad_request
+  end
+
+  test "todo nil" do
+  	get :buscar, :tag => '', :access_token => ''
+    assert_response :bad_request
+  end
+
+  test "tag bien pero hay nil de post" do
+  	get :buscar, :tag => 'hsjcnvsldsñcknjcnjjññññkddkdkdknck', :access_token => '2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402'
+    assert_response :success
+  end
+
 
 end
