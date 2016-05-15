@@ -1899,3 +1899,321 @@ Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-13 17:38:31 -0300
 Processing by ApiController#buscar as HTML
   Parameters: {"tag"=>"melipillazo", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"melipillazo", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
 Completed 200 OK in 2041ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:30:49 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"melipillazo", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"melipillazo", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 22825ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:31:33 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 20180ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:32:27 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 18181ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:33:40 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 19220ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:33:59 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 13846ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:34:50 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 11628ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:35:02 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 14679ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:37:06 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 17317ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:37:24 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 20872ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:38:12 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 20609ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:38:32 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 19010ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:39:39 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 19306ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:39:58 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+undefined method `[]' for nil:NilClass
+Completed 503 Service Unavailable in 20251ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:41:24 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 21566ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:41:45 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 23566ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:42:13 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 21092ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:42:34 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 20381ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:43:19 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 16820ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:43:36 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 17371ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:44:46 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 19709ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:45:06 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 20058ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:45:48 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 14370ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:46:03 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 11700ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:46:26 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 9693ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:47:02 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 9665ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:47:18 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 17892ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:48:00 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 19294ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 16:49:27 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 20689ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:04:46 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `token' for #<ApiController:0x00000005560298>):
+  app/controllers/api_controller.rb:46:in `buscar'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (41.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (221.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (200.5ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (363.6ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:05:01 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `token' for #<ApiController:0x00000003b9f4a8>):
+  app/controllers/api_controller.rb:46:in `buscar'
+
+
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (56.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (28.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.7ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (240.6ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (5.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.8ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (201.0ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.3ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.9ms)
+  Rendered /usr/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (372.1ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:05:58 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"snow", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 18674ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:06:32 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 20099ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:15:08 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 19859ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:15:33 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 20233ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:16:14 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 16163ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:17:37 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 7502ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:18:44 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 12476ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:20:32 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 20039ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:22:03 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 15551ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:23:25 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 12723ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:24:25 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 12534ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:25:33 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 8131ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:26:46 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 14965ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:28:00 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 16946ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:28:43 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 400 Bad Request in 15509ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/instagram/tag/buscar/" for ::1 at 2016-05-15 17:29:37 -0300
+Processing by ApiController#buscar as HTML
+  Parameters: {"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402", "api"=>{"tag"=>"santiago", "access_token"=>"2019746130.59a3f2b.86a0135240404ed5b908a14c0a2d9402"}}
+Completed 200 OK in 17650ms (Views: 24.2ms | ActiveRecord: 0.0ms)
