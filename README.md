@@ -3,3 +3,5 @@
 ![](https://travis-ci.org/rpsaavedra/integrat2.svg?branch=master)
 
 [![Coverage Status](https://coveralls.io/repos/github/rpsaavedra/integrat2/badge.svg?branch=master)](https://coveralls.io/github/rpsaavedra/integrat2?branch=master)
+
+versión: 1.0.0
